@@ -1,0 +1,44 @@
+.counter-sec {
+  height: 100vh;
+  background: #0000E7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.counter-sec .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.counter-sec .counter {
+  background: #006D5B;
+  min-width: 450px;
+  padding: 2rem;
+}
+.counter-sec .counter P {
+  font-weight: 700;
+  font-size: large;
+  margin-bottom: 2rem;
+}
+.counter-sec .counter .count {
+  width: 4rem;
+  height: 4rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counter-sec .buttons {
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 800;
+}
+.counter-sec .buttons button {
+  width: 100px;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: none;
+}/*# sourceMappingURL=App.css.map */
